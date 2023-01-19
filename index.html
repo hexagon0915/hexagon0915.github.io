@@ -1,48 +1,61 @@
-<html>
-    <head>
+<html lang="en" dir="ltr">
+
+    <header>
         <meta charset=utf-8>
         <title>Team Hexa</title>
+        <link href="iconimg.ico" rel="shortcut icon" type="image/x-icon">
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
         
         <link rel='stylesheet' href='src/style/main.css'>
+
+        <body>
+          <h1 id='team-name'> </h1>
+          
+          <div id='desc'>
+              <p>↳ Developing New Websites...</p>
+          </div>
+
+          <div id="desc2">
+              <p>↳ Have fun!</p>
+          </div>
         
-    </head>
+    </header>
     
-    <body>
-        <h1 id='team-name'>[[Team Hexa]]</h1>
-        
-        <div id='desc'>
-            <p>Developing New Websites...</p>
-            <p>Have fun!</p>
-        </div>
-        
-    </body>
-</html>
+  <header>
+    <style>
+      #logoimg {
+        position: absolute;
+        top: 50%; 
+        left: 50px;
+        z-index: 1; 
+        transform: translateY(-50%);
+      }
 
-
-<html lang="en" dir="ltr">
-  <head>
+      #logoimg2 {
+        position: absolute;
+        top: 52%; 
+        left: -5px;
+        z-index: 0; 
+        transform: translateY(-50%);
+      }
+      </style>
     <meta charset="utf-8">
     <title>Team Hexa</title>
-  </head>
+  </header>
   <body>
-    <img id="logoimg" src="내 프로젝트-1 (1).png" alt="Logo img" width="480" height="720"> 
+    <img id="logoimg" src="내 프로젝트-1 (1).png" alt="Logo img" width="480" height="720">
+    <img id="logoimg2" src="squere.png" alt="squere img" width="720" height="480">
+    
    </body>
    
-</html>
-
-<style type="img/css">
-  #logoimg {
-          top: -5%;
-  }
-</style>
-
-
+   <body>
+        
+    
 </body>
-</html>
+
 <style type="text/css">
   video#bgvid {
           position: absolute; right: 0; bottom: 0;
@@ -50,7 +63,7 @@
           width: auto; height: auto; z-index: -9999;
           background: url(polina.jpg) no-repeat;
           background-size: cover;
-          filter: blur(4px);
+          filter: blur(8px);
   }
   #videocover {
     position: absolute;width: 100vw; height: 100vh;
@@ -67,3 +80,14 @@
 <div id="videocover"> 
   
 </div>
+
+<link rel="scrollani" href="src/style/scroll.css">
+        
+<a href="#" class="scroll-down">          
+    <div class="scroll">                   
+        <span class="scroll-dot"></span>   
+    </div>
+    <div class="arrow-down"></div>         
+</a>
+        
+</html>
