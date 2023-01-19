@@ -1,0 +1,65 @@
+#team-name {
+    display: inline-block;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+    position: relative;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+}
+
+#desc {
+    display: block;
+    
+    padding-left: 1%;
+    color: white;
+    
+    font-family: 둥근모꼴;
+    font-size: 32px;
+}
+
+#desc * {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    
+    overflow-x: hidden;
+    background-color: black;
+}
+
+#preview {
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    
+    filter: blur(-5px);
+    position: absolute;
+    top: 0px;
+    z-index: -9999;
+
+    background-color: black;
+    border-width: 0px;
+}
+
+#preview-cover {
+    z-index: -9998;
+    position: absolute;
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+
+@font-face {
+    font-family: 둥근모꼴;
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+}
