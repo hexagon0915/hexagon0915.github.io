@@ -11,19 +11,10 @@
         
         <link rel='stylesheet' href='src/style/main.css'>
 
-        <body>
-          <h1 id='team-name'> </h1>
-          
-          <div id='desc'>
-              <p>↳ Developing New Websites...</p>
-          </div>
-
-          <div id="desc2">
-              <p>↳ Have fun!</p>
-          </div>
+        
         
     </header>
-    
+    <body>
   <header>
     <style>
       #logoimg {
@@ -38,7 +29,14 @@
         position: absolute;
         top: 52%; 
         left: -5px;
-        z-index: 0; 
+        z-index: -1; 
+        transform: translateY(-50%);
+      }
+
+      #textimg1 {
+        position: absolute;
+        top: 58%;
+        left: 75px;
         transform: translateY(-50%);
       }
       </style>
@@ -48,12 +46,11 @@
   <body>
     <img id="logoimg" src="내 프로젝트-1 (1).png" alt="Logo img" width="480" height="720">
     <img id="logoimg2" src="squere.png" alt="squere img" width="720" height="480">
+    <img id="textimg1" src="text.png" alt="↳ Developing New Websites..." width="502" height="129">
     
    </body>
    
-   <body>
         
-    
 </body>
 
 <style type="text/css">
@@ -63,7 +60,7 @@
           width: auto; height: auto; z-index: -9999;
           background: url(polina.jpg) no-repeat;
           background-size: cover;
-          filter: blur(8px);
+          filter: blur(0.4vw);
   }
   #videocover {
     position: absolute;width: 100vw; height: 100vh;
@@ -81,13 +78,4 @@
   
 </div>
 
-<link rel="scrollani" href="src/style/scroll.css">
-        
-<a href="#" class="scroll-down">          
-    <div class="scroll">                   
-        <span class="scroll-dot"></span>   
-    </div>
-    <div class="arrow-down"></div>         
-</a>
-        
 </html>

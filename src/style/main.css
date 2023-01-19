@@ -1,77 +1,10 @@
-#team-name {
-    display: inline-block;
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 800;
-    position: relative;
-    left: 50%;
-    color: white;
-    transform: translateX(-50%);
+.box {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
-
-#desc {
-    display: block;
-    
-    padding-left: 4%;
-    color: white;
-    
-    font-family: 둥근모꼴;
-    font-size: 32px;
+.box::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
 }
-
-#desc * {
-
-    position: absolute;
-        top: 54%; 
-        left: 120px;
-        z-index: 9999; 
-        transform: translateY(-50%);
-
-}
-
-
-body {
-    margin: 1px;
-    width: 100vw;
-    height: 100vh;
-    
-    overflow-x: hidden;
-    background-color: black;
-}
-
-
-
-
-#desc2 {
-    display: block;
-    
-    padding-left: 4%;
-    color: white;
-    
-    font-family: 둥근모꼴;
-    font-size: 32px;
-}
-
-#desc2 * {
-
-    position: absolute;
-        top: 57.5%; 
-        left: 140px;
-        z-index: 9999; 
-        transform: translateY(-50%);
-
-}
-
-
-body {
-    margin: 1px;
-    width: 100vw;
-    height: 100vh;
-    
-    overflow-x: hidden;
-    background-color: black;
-}
-
-
 
 #preview {
     width: 100vw;
