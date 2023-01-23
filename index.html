@@ -1,84 +1,32 @@
 <html lang="en" dir="ltr">
-
     <header>
+      <body>
         <meta charset=utf-8>
         <title>Team Hexa</title>
-        <link href="iconimg.ico" rel="shortcut icon" type="image/x-icon">
-        
+        <!--폰트-->  
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
-        
-        <link rel='stylesheet' href='src/style/main.css'>
 
-        
-        
-    </header>
-    <body>
-  <header>
-    <style>
-      #logoimg {
-        
-        position: absolute;
-        top: 50%; 
-        left: 50px;
-        z-index: 1; 
-        transform: translateY(-50%);
-        filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.8));
-      }
+        <!--이미지 및 아이콘-->
 
-      #logoimg2 {
-        position: absolute;
-        top: 52%; 
-        left: -5px;
-        z-index: -1; 
-        transform: translateY(-50%);
-      }
-
-      #textimg1 {
-        position: absolute;
-        top: 58%;
-        left: 75px;
-        z-index: 1;
-        transform: translateY(-50%);
-      }
-      </style>
-    <meta charset="utf-8">
-    <title>Team Hexa</title>
-  </header>
-  <body>
-    <img id="logoimg" src="내 프로젝트-1 (1).png" alt="Logo img" width="480" height="720">
-    <img id="logoimg2" src="squere.png" alt="squere img" width="720" height="480">
-    <img id="textimg1" src="text.png" alt="↳ Developing New Websites..." width="502" height="129">
-    
-   </body>
+    <link href="Storage/iconimg.ico" rel="shortcut icon" type="image/x-icon">
+    <img id="logoimg" src="Storage/Logo.png" alt="Logo img" width="480" height="720">
+    <img id="logoimg2" src="Storage/squere.png" alt="squere img" width="720" height="480">
+    <img id="textimg1" src="Storage/text.png" alt="↳ Developing New Websites..." width="502" height="129">
    
-        
-</body>
+        <!--미리보기 비디오-->
 
-<style type="text/css">
-  video#bgvid {
-          position: absolute; right: 0; bottom: 0;
-          min-width: 100%; min-height: 100%;
-          width: auto; height: auto; z-index: -9999;
-          background: url(polina.jpg) no-repeat;
-          background-size: cover;
-          filter: blur(0.4vw);
-  }
-  #videocover {
-    position: absolute;width: 100vw; height: 100vh;
-    left: 0px;
-    top: 0px;
-    background-color: rgba(0,0,0,0.4);
-    z-index: -9998;
-}
-</style>
-<video autoplay loop muted id="bgvid">
-  <source src="Preview.mp4" type="video/mp4">
-</video>
+    <video autoplay loop muted id="bgvid">
+      <source src="Storage/Preview.mp4" type="video/mp4">
+    </video>
 
-<div id="videocover"> 
-  
-</div>
+    <div id="videocover"></div>
 
+      <!--스타일시트(CSS File)-->
+      <link rel='stylesheet' href='src/style/sub.css'>
+      <link rel='stylesheet' href='src/style/main.css'>
+
+      </body>
+    </header>
 </html>
