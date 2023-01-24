@@ -1,6 +1,6 @@
 #logoimg {
   position: absolute;
-  top: 50%; 
+  top: 49%; 
   left: 50px;
   z-index: 0; 
   transform: translateY(-50%);
